@@ -1,0 +1,5 @@
+part       description                 vendor            PN                  QTY
+---------------------------------------------------------------------------------
+D1-D9      LED RED CLEAR T/H           Digikey           365-1167-ND         18
+J1         13x2 shrouhded header       Digikey           S9173-ND             1 
+

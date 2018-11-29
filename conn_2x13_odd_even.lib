@@ -1,0 +1,50 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# conn_2x13_odd_even
+#
+DEF conn_2x13_odd_even J 0 40 Y N 1 F N
+F0 "J" 0 700 50 H V C CNN
+F1 "conn_2x13_odd_even" 0 -700 50 H V C CNN
+F2 "" -50 0 50 H I C CNN
+F3 "" -50 0 50 H I C CNN
+$FPLIST
+ Connector*:*2x??x*mm*
+ Connector*:*2x???Pitch*
+ Pin_Header_Straight_2X*
+ Pin_Header_Angled_2X*
+ Socket_Strip_Straight_2X*
+ Socket_Strip_Angled_2X*
+$ENDFPLIST
+DRAW
+S -100 650 100 -650 1 1 10 N
+X Pin_1 1 -250 600 150 R 50 50 1 1 P
+X Pin_2 2 250 600 150 L 50 50 1 1 P
+X Pin_3 3 -250 500 150 R 50 50 1 1 P
+X Pin_4 4 250 500 150 L 50 50 1 1 P
+X Pin_5 5 -250 400 150 R 50 50 1 1 P
+X Pin_6 6 250 400 150 L 50 50 1 1 P
+X Pin_7 7 -250 300 150 R 50 50 1 1 P
+X Pin_8 8 250 300 150 L 50 50 1 1 P
+X Pin_9 9 -250 200 150 R 50 50 1 1 P
+X Pin_10 10 250 200 150 L 50 50 1 1 P
+X Pin_20 20 250 -300 150 L 50 50 1 1 P
+X Pin_11 11 -250 100 150 R 50 50 1 1 P
+X Pin_21 21 -250 -400 150 R 50 50 1 1 P
+X Pin_12 12 250 100 150 L 50 50 1 1 P
+X Pin_22 22 250 -400 150 L 50 50 1 1 P
+X Pin_13 13 -250 0 150 R 50 50 1 1 P
+X Pin_23 23 -250 -500 150 R 50 50 1 1 P
+X Pin_14 14 250 0 150 L 50 50 1 1 P
+X Pin_24 24 250 -500 150 L 50 50 1 1 P
+X Pin_15 15 -250 -100 150 R 50 50 1 1 P
+X Pin_25 25 -250 -600 150 R 50 50 1 1 P
+X Pin_16 16 250 -100 150 L 50 50 1 1 P
+X Pin_26 26 250 -600 150 L 50 50 1 1 P
+X Pin_17 17 -250 -200 150 R 50 50 1 1 P
+X Pin_18 18 250 -200 150 L 50 50 1 1 P
+X Pin_19 19 -250 -300 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
