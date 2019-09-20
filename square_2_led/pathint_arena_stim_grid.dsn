@@ -1,0 +1,304 @@
+(pcb /home/wbd/work/pcb_designs/pathint_arena_3x3_stim_grid/pathint_arena_stim_grid.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "4.0.7-e2-6376~58~ubuntu16.04.1")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  25400 -276860  25400 -27940  25438.6 -27498.9  25553.2 -27071.3
+            25740.3 -26670  25994.2 -26307.3  26307.3 -25994.2  26670 -25740.3
+            27071.3 -25553.2  27498.9 -25438.6  27940 -25400  276860 -25400
+            277301 -25438.6  277729 -25553.2  278130 -25740.3  278493 -25994.2
+            278806 -26307.3  279060 -26670  279247 -27071.3  279361 -27498.9
+            279400 -27940  279400 -276860  279361 -277301  279247 -277729
+            279060 -278130  278806 -278493  278493 -278806  278130 -279060
+            277729 -279247  277301 -279361  276860 -279400  27940 -279400
+            27498.9 -279361  27071.3 -279247  26670 -279060  26307.3 -278806
+            25994.2 -278493  25740.3 -278130  25553.2 -277729  25438.6 -277301
+            25400 -276860  25400 -276860)
+    )
+    (keepout "" (polygon signal 0  196342 -196342  196342 -235458  235458 -235458  235458 -196342
+            196342 -196342  196342 -196342))
+    (keepout "" (polygon signal 0  132842 -196342  132842 -235458  171958 -235458  171958 -196342
+            132842 -196342  132842 -196342))
+    (keepout "" (polygon signal 0  69342 -196342  69342 -235458  108458 -235458  108458 -196342
+            69342 -196342  69342 -196342))
+    (keepout "" (polygon signal 0  196342 -132842  196342 -171958  235458 -171958  235458 -132842
+            196342 -132842  196342 -132842))
+    (keepout "" (polygon signal 0  132842 -132842  132842 -171958  171958 -171958  171958 -132842
+            132842 -132842  132842 -132842))
+    (keepout "" (polygon signal 0  69342 -132842  69342 -171958  108458 -171958  108458 -132842
+            69342 -132842  69342 -132842))
+    (keepout "" (polygon signal 0  196342 -69342  196342 -108458  235458 -108458  235458 -69342
+            196342 -69342  196342 -69342))
+    (keepout "" (polygon signal 0  132842 -69342  132842 -108458  171958 -108458  171958 -69342
+            132842 -69342  132842 -69342))
+    (keepout "" (polygon signal 0  69342 -69342  69342 -108458  108458 -108458  108458 -69342
+            69342 -69342  69342 -69342))
+    (via "Via[0-1]_600:400_um")
+    (rule
+      (width 381)
+      (clearance 203.3)
+      (clearance 203.3 (type default_smd))
+      (clearance 50.8 (type smd_smd))
+    )
+  )
+  (placement
+    (component 0P25_THRU_HOLE:0P25_THRU_HOLE
+      (place M1 38100 -38100 front 0 (PN 0P25_THRU_HOLE))
+      (place M2 266700 -38100 front 0 (PN 0P25_THRU_HOLE))
+      (place M3 266700 -266700 front 0 (PN 0P25_THRU_HOLE))
+      (place M4 38100 -266700 front 0 (PN 0P25_THRU_HOLE))
+    )
+    (component 13X2_SHRD_HEADER:5X2_SHRD_HEADER
+      (place J1 152400 -274320 front 180 (PN conn_2x13_odd_even))
+    )
+    (component ARENA_ELEM:SUB_ARENA
+      (place D9 215900 -215900 front 0 (PN ARENA_LED_PAIR))
+      (place D8 215900 -152400 front 0 (PN ARENA_LED_PAIR))
+      (place D7 215900 -88900 front 0 (PN ARENA_LED_PAIR))
+      (place D6 152400 -215900 front 0 (PN ARENA_LED_PAIR))
+      (place D5 152400 -152400 front 0 (PN ARENA_LED_PAIR))
+      (place D4 152400 -88900 front 0 (PN ARENA_LED_PAIR))
+      (place D3 88900 -215900 front 0 (PN ARENA_LED_PAIR))
+      (place D2 88900 -152400 front 0 (PN ARENA_LED_PAIR))
+      (place D1 88900 -88900 front 0 (PN ARENA_LED_PAIR))
+    )
+  )
+  (library
+    (image 0P25_THRU_HOLE:0P25_THRU_HOLE
+      (pin Round[A]Pad_7289.8_um @1 0 0)
+    )
+    (image 13X2_SHRD_HEADER:5X2_SHRD_HEADER
+      (outline (path signal 381  20320 4826  20320 -4826))
+      (outline (path signal 381  0 -4826  20320 -4826))
+      (outline (path signal 381  0 4826  20320 4826))
+      (outline (path signal 381  -20320 4826  0 4826))
+      (outline (path signal 381  0 -4826  -20320 -4826))
+      (outline (path signal 381  -20320 -4826  -20320 4826))
+      (outline (path signal 381  -17061.2 -7299.96  -14058.9 -7299.96))
+      (outline (path signal 381  -15524.5 -5488.94  -17048.5 -7266.94))
+      (outline (path signal 381  -14000.5 -7264.4  -15524.5 -5486.4))
+      (pin Rect[A]Pad_1778x1778_um 1 -15240 -1270)
+      (pin Round[A]Pad_1778_um 2 -15240 1270)
+      (pin Round[A]Pad_1778_um 3 -12700 -1270)
+      (pin Round[A]Pad_1778_um 4 -12700 1270)
+      (pin Round[A]Pad_1778_um 5 -10160 -1270)
+      (pin Round[A]Pad_1778_um 6 -10160 1270)
+      (pin Round[A]Pad_1778_um 7 -7620 -1270)
+      (pin Round[A]Pad_1778_um 8 -7620 1270)
+      (pin Round[A]Pad_1778_um 9 -5080 -1270)
+      (pin Round[A]Pad_1778_um 10 -5080 1270)
+      (pin Round[A]Pad_1778_um 11 -2540 -1270)
+      (pin Round[A]Pad_1778_um 12 -2540 1270)
+      (pin Round[A]Pad_1778_um 13 0 -1270)
+      (pin Round[A]Pad_1778_um 14 0 1270)
+      (pin Round[A]Pad_1778_um 15 2540 -1270)
+      (pin Round[A]Pad_1778_um 16 2540 1270)
+      (pin Round[A]Pad_1778_um 17 5080 -1270)
+      (pin Round[A]Pad_1778_um 18 5080 1270)
+      (pin Round[A]Pad_1778_um 19 7620 -1270)
+      (pin Round[A]Pad_1778_um 20 7620 1270)
+      (pin Round[A]Pad_1778_um 21 10160 -1270)
+      (pin Round[A]Pad_1778_um 22 10160 1270)
+      (pin Round[A]Pad_1778_um 23 12700 -1270)
+      (pin Round[A]Pad_1778_um 24 12700 1270)
+      (pin Round[A]Pad_1778_um 25 15240 -1270)
+      (pin Round[A]Pad_1778_um 26 15240 1270)
+    )
+    (image ARENA_ELEM:SUB_ARENA
+      (outline (path signal 254  14224 -19621.5  14224 -23749))
+      (outline (path signal 254  22098 -19621.5  22098 -23749))
+      (outline (path signal 254  14224 -19621.5  22098 -19621.5))
+      (outline (path signal 254  -14224 23749  -14224 19621.5))
+      (outline (path signal 254  -22098 23749  -22098 19621.5))
+      (outline (path signal 254  -22098 19621.5  -14224 19621.5))
+      (outline (path signal 50.8  19558 -19558  19558 19558))
+      (outline (path signal 50.8  -19558 -19558  19558 -19558))
+      (outline (path signal 50.8  -19558 19558  -19558 -19558))
+      (outline (path signal 50.8  -19558 19558  19558 19558))
+      (outline (path signal 254  18415 -21590  18415 -23368))
+      (outline (path signal 254  18415 -22479  17208.5 -21717))
+      (outline (path signal 254  18415 -22542.5  17208.5 -23304.5))
+      (outline (path signal 254  17208.5 -21780.5  17208.5 -23241))
+      (outline (path signal 254  17208.5 -22479  15748 -22479))
+      (outline (path signal 254  18542 -22479  20193 -22479))
+      (outline (path signal 254  -18478.5 22479  -20129.5 22479))
+      (outline (path signal 254  14224 -23749  22098 -23749))
+      (outline (path signal 254  -17208.5 22479  -15748 22479))
+      (outline (path signal 254  -17208.5 23177.5  -17208.5 21717))
+      (outline (path signal 254  -18415 22415.5  -17208.5 21653.5))
+      (outline (path signal 254  -18415 22479  -17208.5 23241))
+      (outline (path signal 254  -18415 23368  -18415 21590))
+      (outline (path signal 254  -22098 23749  -14224 23749))
+      (outline (path signal 254  19075.4 914.4  19075.4 -19075.4))
+      (outline (path signal 254  -19075.4 19075.4  914.4 19075.4))
+      (outline (path signal 254  -914.4 -19075.4  19075.4 -19075.4))
+      (outline (path signal 254  -19075.4 0  -19075.4 -914.4))
+      (outline (path signal 254  -914.4 -914.4  -914.4 -19075.4))
+      (outline (path signal 254  914.4 914.4  19075.4 914.4))
+      (outline (path signal 254  914.4 19075.4  914.4 914.4))
+      (outline (path signal 254  -19075.4 -914.4  -914.4 -914.4))
+      (outline (path signal 254  914.4 -914.4  17221.2 -914.4))
+      (outline (path signal 254  17221.2 -914.4  17221.2 -17221.2))
+      (outline (path signal 254  17221.2 -17221.2  914.4 -17221.2))
+      (outline (path signal 254  914.4 -17221.2  914.4 -914.4))
+      (outline (path signal 254  -17221.2 17221.2  -914.4 17221.2))
+      (outline (path signal 254  -914.4 17221.2  -914.4 914.4))
+      (outline (path signal 254  -914.4 914.4  -17221.2 914.4))
+      (outline (path signal 254  -17221.2 914.4  -17221.2 17221.2))
+      (outline (path signal 254  -19075.4 0  -19075.4 19075.4))
+      (pin Rect[A]Pad_2032x1270_um 1 -20701 20701)
+      (pin Oval[A]Pad_2286x1270_um 2 -15621 20701)
+      (pin Oval[A]Pad_2286x1270_um 4 15621 -20701)
+      (pin Oval[A]Pad_2286x1270_um 3 20701 -20701)
+    )
+    (padstack Round[A]Pad_1778_um
+      (shape (circle F.Cu 1778))
+      (shape (circle B.Cu 1778))
+      (attach off)
+    )
+    (padstack Round[A]Pad_7289.8_um
+      (shape (circle F.Cu 7289.8))
+      (shape (circle B.Cu 7289.8))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_2286x1270_um
+      (shape (path F.Cu 1270  -508 0  508 0))
+      (shape (path B.Cu 1270  -508 0  508 0))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_2032x1270_um
+      (shape (rect F.Cu -1016 -635 1016 635))
+      (shape (rect B.Cu -1016 -635 1016 635))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1778x1778_um
+      (shape (rect F.Cu -889 -889 889 889))
+      (shape (rect B.Cu -889 -889 889 889))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:400_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net /PWM0
+      (pins J1-1 D1-1)
+    )
+    (net /VIN
+      (pins J1-25 J1-26 D9-2 D9-4 D8-2 D8-4 D7-2 D7-4 D6-2 D6-4 D5-2 D5-4 D4-2 D4-4
+        D3-2 D3-4 D2-2 D2-4 D1-2 D1-4)
+    )
+    (net /PWM1
+      (pins J1-2 D1-3)
+    )
+    (net /PWM2
+      (pins J1-3 D2-1)
+    )
+    (net /PWM3
+      (pins J1-4 D2-3)
+    )
+    (net /PWM4
+      (pins J1-5 D3-1)
+    )
+    (net /PWM5
+      (pins J1-6 D3-3)
+    )
+    (net /PWM6
+      (pins J1-7 D4-1)
+    )
+    (net /PWM7
+      (pins J1-8 D4-3)
+    )
+    (net /PWM10
+      (pins J1-11 D6-1)
+    )
+    (net /PWM11
+      (pins J1-12 D6-3)
+    )
+    (net /PWM8
+      (pins J1-9 D5-1)
+    )
+    (net /PWM9
+      (pins J1-10 D5-3)
+    )
+    (net /PWM12
+      (pins J1-13 D7-1)
+    )
+    (net /PWM13
+      (pins J1-14 D7-3)
+    )
+    (net /PWM14
+      (pins J1-15 D8-1)
+    )
+    (net /PWM15
+      (pins J1-16 D8-3)
+    )
+    (net /PWM16
+      (pins J1-17 D9-1)
+    )
+    (net /PWM17
+      (pins J1-18 D9-3)
+    )
+    (net "Net-(J1-Pad19)"
+      (pins J1-19)
+    )
+    (net "Net-(J1-Pad20)"
+      (pins J1-20)
+    )
+    (net "Net-(J1-Pad21)"
+      (pins J1-21)
+    )
+    (net "Net-(J1-Pad22)"
+      (pins J1-22)
+    )
+    (net "Net-(J1-Pad23)"
+      (pins J1-23)
+    )
+    (net "Net-(J1-Pad24)"
+      (pins J1-24)
+    )
+    (class kicad_default "" /PWM0 /PWM1 /PWM10 /PWM11 /PWM12 /PWM13 /PWM14
+      /PWM15 /PWM16 /PWM17 /PWM2 /PWM3 /PWM4 /PWM5 /PWM6 /PWM7 /PWM8 /PWM9
+      "Net-(J1-Pad19)" "Net-(J1-Pad20)" "Net-(J1-Pad21)" "Net-(J1-Pad22)"
+      "Net-(J1-Pad23)" "Net-(J1-Pad24)"
+      (circuit
+        (use_via Via[0-1]_600:400_um)
+      )
+      (rule
+        (width 381)
+        (clearance 203.3)
+      )
+    )
+    (class Power /VIN
+      (circuit
+        (use_via Via[0-1]_600:400_um)
+      )
+      (rule
+        (width 635)
+        (clearance 203.3)
+      )
+    )
+  )
+  (wiring
+  )
+)

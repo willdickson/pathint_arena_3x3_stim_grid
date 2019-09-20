@@ -1,0 +1,9 @@
+(module 0P25_THRU_HOLE (layer F.Cu) (tedit 5BFEDFAC)
+  (fp_text reference REF** (at 0 5.08) (layer F.SilkS) hide
+    (effects (font (size 0.762 0.762) (thickness 0.1778)))
+  )
+  (fp_text value 0P25_THRU_HOLE (at 0 -5.08) (layer F.Fab) hide
+    (effects (font (size 0.762 0.762) (thickness 0.1778)))
+  )
+  (pad "" thru_hole circle (at 0 0) (size 7.2898 7.2898) (drill 6.5278) (layers *.Cu *.Mask))
+)
