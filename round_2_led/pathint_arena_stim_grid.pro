@@ -1,4 +1,4 @@
-update=Wed 28 Nov 2018 11:26:38 AM PST
+update=Fri 20 Sep 2019 04:59:15 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -64,3 +64,4 @@ LibName32=valves
 LibName33=conn_2x13_odd_even
 LibName34=conn_1x2
 LibName35=arena_led_pair
+LibName36=arena_led
